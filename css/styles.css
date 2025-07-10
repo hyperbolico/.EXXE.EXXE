@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura completa de la ventana */
+  margin: 0; /* Elimina márgenes predeterminados */
+  background-color: #f0f0f0; /* Fondo opcional */
+}
+
+
+canvas {
+  display: block; /* Ocupa todo el espacio */
+}
+
+
+
+#audioInput {
+  display: block;
+  margin: 1px auto 0; /* Empuja hacia abajo */
+  padding: 10px 15px;
+  font-size: 11px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>EXXE.EXXE.EXXE</title>
+    <script>
+    let titleText = "EXXE.EXXE.EXXE - XXX.XXX.EXXE.EXXE.EXXE-000 ";
+function scrollTitle() {
+  titleText = titleText.substring(1) + titleText[0]; // Desplazar un carácter
+  document.title = titleText;
+  setTimeout(scrollTitle, 300); // Cambiar cada 300 ms
+}
+scrollTitle();
+
+  </script>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+
+
+
+    <!-- import the webpage's javascript file -->
+
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <canvas id="myCanvas"></canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r118/three.min.js"></script>
+
+  </body>
+</html>
